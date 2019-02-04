@@ -115,6 +115,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DataFile.cpp" />
+    <ClCompile Include="Delimiter.cpp" />
+    <ClCompile Include="mian.cpp" />
+    <ClCompile Include="SizeDesco.cpp" />
+    <ClCompile Include="SizeRegister.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DataFile.h" />
+    <ClInclude Include="Delimiter.h" />
+    <ClInclude Include="SizeDesco.h" />
+    <ClInclude Include="SizeRegister.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
